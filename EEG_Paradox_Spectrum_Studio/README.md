@@ -24,7 +24,7 @@ These screenshots use real EEG with identifying labels, filenames, dates and loc
 
 ## Getting it running
 
-If you just want to use the app, download [Spectrum Studio.exe](https://github.com/ElChaderino/EEG-Paradox-Spectrum-Studio/releases/download/v0.6.8/Spectrum%20Studio.exe) from the [0.6.8 release](https://github.com/ElChaderino/EEG-Paradox-Spectrum-Studio/releases/tag/v0.6.8). The Windows file version on that build is **0.6.8.2**.
+If you just want to use the app, download [Spectrum Studio.exe](https://github.com/ElChaderino/EEG-Paradox-Spectrum-Studio/releases/download/v0.6.8/Spectrum.Studio.exe) from the [0.6.8 release](https://github.com/ElChaderino/EEG-Paradox-Spectrum-Studio/releases/tag/v0.6.8). GitHub saves that file as `Spectrum.Studio.exe` because a release filename can't keep the space. It's the same application. The Windows file version on that build is **0.6.8.2**.
 
 You only need that one EXE. There's no installer, no separate Python setup, and you don't need the rest of EEG Paradox installed. It has its own app icon and opens the recording loader when you double-click it.
 
