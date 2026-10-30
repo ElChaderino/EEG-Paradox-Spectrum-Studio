@@ -1,0 +1,41 @@
+# Local runtime, builds and editor state
+.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+work/
+cache/
+outputs/
+studio_outputs/
+.cursor/
+.codex/
+.env*
+*.log
+
+# Recording inputs and generated private results never belong in source control.
+*.edf
+*.bdf
+*.eeg
+*.bxs
+*.fif
+*.fif.gz
+*.gdf
+*.vhdr
+*.vmrk
+*.cnt
+*.set
+*.fdt
+*.npz
+*.pdf
+run_manifest.json
+run_status.json
+review_context.json
+method.json
+
+# The one-file application belongs in GitHub release assets.
+*.exe
+*.zip
+*.tar.gz

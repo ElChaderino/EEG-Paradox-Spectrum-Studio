@@ -1,0 +1,48 @@
+{
+  "repository": "https://github.com/aethersdr/AetherSDR",
+  "commit": "66d81be20cf50910ff6f57febc338da5f0ae9f43",
+  "retrieved_at": "2026-10-26",
+  "license": "GPL-3.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/LICENSE"
+    },
+    {
+      "path": "resources/shaders/dss_mesh.vert",
+      "git_blob_sha": "a3de29eb514dc858bd0db72e0779f0146d7ab863",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/resources/shaders/dss_mesh.vert"
+    },
+    {
+      "path": "resources/shaders/dss_mesh.frag",
+      "git_blob_sha": "7e77704a62451a58a4f5e687658fd2e8adea5b60",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/resources/shaders/dss_mesh.frag"
+    },
+    {
+      "path": "resources/shaders/texturedquad.frag",
+      "git_blob_sha": "5d44f8017ea3c25bc985d0e05e3f82dbd65208ab",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/resources/shaders/texturedquad.frag"
+    },
+    {
+      "path": "src/gui/WaterfallHistoryBuffer.cpp",
+      "git_blob_sha": "fd7061d96a5082f76a715cf09d76e7df943f36f4",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/src/gui/WaterfallHistoryBuffer.cpp"
+    },
+    {
+      "path": "src/gui/WaterfallHistoryBuffer.h",
+      "git_blob_sha": "5ac005560a2aed7ec0f2ac376cb75267911f337f",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/src/gui/WaterfallHistoryBuffer.h"
+    },
+    {
+      "path": "src/gui/WaterfallLevelMap.h",
+      "git_blob_sha": "eccf401533230672bb1512e9081651099a552e5a",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/src/gui/WaterfallLevelMap.h"
+    },
+    {
+      "path": "src/gui/DssRenderer.h",
+      "git_blob_sha": "56981e486d71bff50f02d1a6902bd0b4a8a30dd9",
+      "source_url": "https://github.com/aethersdr/AetherSDR/blob/66d81be20cf50910ff6f57febc338da5f0ae9f43/src/gui/DssRenderer.h"
+    }
+  ]
+}

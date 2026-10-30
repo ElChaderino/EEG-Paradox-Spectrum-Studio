@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eeg-paradox-spectrum-studio"
+version = "0.6.8"
+description = "Local EEG spectrum, waterfall and AetherSDR-derived stacked history viewer"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24", "scipy>=1.10", "mne>=1.4", "pyedflib>=0.1.42", "matplotlib>=3.7", "reportlab>=4"]
+
+[project.scripts]
+eeg-paradox-spectrum = "EEG_Paradox_Spectrum_Studio.__main__:main"
+eeg-paradox-spectrum-gui = "EEG_Paradox_Spectrum_Studio.desktop:main"
+
+[tool.setuptools]
+packages = ["EEG_Paradox_Spectrum_Studio"]
+package-dir = {EEG_Paradox_Spectrum_Studio = "."}
+include-package-data = false
+
+[tool.setuptools.package-data]
+EEG_Paradox_Spectrum_Studio = [
+  "assets/*", "LICENSE", "NOTICE.md", "README.md", "VALIDATION.md", "Run_Spectrum_Studio.cmd",
+  "packaging/*.py", "packaging/*.ps1", "packaging/*.spec", "packaging/version_info.txt", "packaging/README.md",
+  "third_party/aethersdr/LICENSE", "third_party/aethersdr/SOURCE_MANIFEST.json",
+  "third_party/aethersdr/resources/shaders/*", "third_party/aethersdr/src/gui/*"
+]
